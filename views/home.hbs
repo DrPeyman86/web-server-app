@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{welcomeMessage}}</title>
+</head>
+<body>
+    {{> header}}
+    <p>{{screamIt welcomeMessage}}</p><!-- this is a helper and the second is the argument to send to the helper to uppercase-->
+</body>
+{{> footer}}<!--this is telling this to use partial. that's the synatx-->
+</html>
