@@ -35,7 +35,7 @@ app.use((req, res, next)=> {
         }
     })
     
-    console.log(log);
+    //console.log(log);
     next()//if you do not call next() in your middleware, the app will never continue. the site will just spin as loading
 })
 
